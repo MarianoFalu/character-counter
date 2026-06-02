@@ -98,3 +98,42 @@ header button{
     resize: none;
     outline: none;
 }
+
+/* CONTROLS */
+.controls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.left-controls{
+    display: flex;
+    gap: 5px;
+    font-size: 16px;
+}
+
+.controls p{
+    color: var(--text-secondary);
+    font-size: 14px;
+}
+
+.controls input{
+    margin-right: 5px;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    background-color: var(--bg-main);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.controls input:checked:after{
+    content: "✔";
+    color: white;
+    font-size: 12px;
+    display: block;
+    text-align: center;
+}
+
