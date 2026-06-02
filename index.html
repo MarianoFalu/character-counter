@@ -11,16 +11,19 @@
     <header>
         <div class="logo">
             <img src="/assets/img/logo.png" alt="logo">
-            <h2>Character Counter</h2>
+            <h1>Character Counter</h1>
         </div>
         <button>⚙️</button> 
         <!-- explicar despues que hará el boton en el README -->
     </header>
+
     <main>
+
         <section class="hero">
-            <h1>Analyze your text in real-time.</h1>
+            <h2>Analyze your text in real-time.</h2>
             <textarea name="text" id="text" placeholder="Start typing here..."></textarea>
         </section>
+
         <section class="controls">
             <div class="left-controls">
                 <input type="checkbox" id="spaces">
@@ -32,6 +35,22 @@
             <p>Approx. reading time: &lt;1 minute</p>
             <!-- &lt; representa < / asi el visual code no lo lee como una etiqueta -->
         </section>
+
+        <section class="cards">
+            <div class="card characters">
+                <p class="number">278</p>
+                <p class="label">Total Characters</p>
+            </div>
+            <div class="card word">
+                <p class="number">39</p>
+                <p class="label">Word Count</p>
+            </div>
+            <div class="card sentence">
+                <p class="number">04</p>
+                <p class="label">Sentence Count</p>
+            </div>
+        </section>
+
     </main>
 </body>
 </html>
