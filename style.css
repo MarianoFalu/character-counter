@@ -22,3 +22,14 @@ box-sizing: border-box;
   --bar: #D19BFF;
   --border: #2A2D3A;
 }
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url(./assets/fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    font-family: 'Space Grotesk', sans-serif;
+}
