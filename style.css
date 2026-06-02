@@ -137,3 +137,41 @@ header button{
     text-align: center;
 }
 
+/* CARDS */
+.cards{
+    display: flex;
+    margin-top: 25px;
+    gap: 15px;
+}
+
+.characters{
+    background-color: var(--purple);
+    flex: 1;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.word{
+    background-color: var(--orange);
+    flex: 1;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.sentence{
+    background-color: var(--coral);
+    flex: 1;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.number{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+.label{
+    font-size: 15px;
+    color: black;
+}
