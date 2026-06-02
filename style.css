@@ -4,6 +4,7 @@ padding: 0;
 box-sizing: border-box;
 }
 
+/* VARIABLES */
 :root {
   /* Fondo */
   --bg-main: #12131A;
@@ -29,7 +30,42 @@ box-sizing: border-box;
 }
 
 body {
-    background-color: var(--bg-main);
+    background-color: white;
     color: var(--text-main);
     font-family: 'Space Grotesk', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: var(--bg-main);
+    padding: 25px;
+    width: 100%;
+    max-width: 650px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px;
+    height: auto;
+}
+
+header button{
+    background-color: var(--bg-card);
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
 }
