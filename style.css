@@ -97,6 +97,7 @@ header button{
     color: var(--text-secondary);
     resize: none;
     outline: none;
+    box-shadow: 0 0 2px var(--border);
 }
 
 /* CONTROLS */
@@ -111,6 +112,7 @@ header button{
     display: flex;
     gap: 5px;
     font-size: 16px;
+    color: var(--text-secondary);
 }
 
 .controls p{
@@ -175,3 +177,93 @@ header button{
     font-size: 15px;
     color: black;
 }
+
+/* LETTER DENSITY */
+.letter-density {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.letter-density h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.letter-density .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.letter-density .letter{
+    font-size: 16px;
+    color: var(--text-secondary);
+    width: 15px;
+}
+
+.letter-density .bar{
+    flex: 1;
+    background-color: var(--bg-card);
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 15px;
+}
+
+.letter-density .fill-e{
+    height: 100%;
+    background-color: var(--bar);
+    border-radius: 5px;
+    width: 16.06%;
+}
+
+.letter-density .fill-i{
+    height: 100%;
+    background-color: var(--bar);
+    border-radius: 5px;
+    width: 11.65%;
+}
+
+.letter-density .fill-t{
+    height: 100%;
+    background-color: var(--bar);
+    border-radius: 5px;
+    width: 11.24%;
+}
+
+.letter-density .fill-o{
+    height: 100%;
+    background-color: var(--bar);
+    border-radius: 5px;
+    width: 8.84%;
+}
+
+.letter-density .fill-n{
+    height: 100%;
+    background-color: var(--bar);
+    border-radius: 5px;
+    width: 8.43%;
+}
+
+.letter-density .info{
+    font-size: 16px;
+    color: var(--text-secondary);
+    text-align: right;
+    width: 90px;
+}
+
+.seemore{
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: color 0.2s ease;
+}
+
+.seemore:hover{
+    color: var(--text-main);
+}
+
